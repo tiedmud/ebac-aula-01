@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+        <script src="contato.js"></script>
+
+        <title>Ricardo Takara - Contato</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Bem-vindo ao meu site!</h1>
+            <p>Olá! Meu nome é Ricardo Takara. Sou programador web e mobile há 9+ anos.
+                Me especializei em desenvolvimento front-end com os frameworks Ionic e Angular e 
+                agora almejo me especializar em back-end com o framework Spring Boot.
+            </p>
+        </header>
+
+        <main>
+            <section>
+                <img src="foto-perfil.jpeg" alt="Foto de perfil" height=400>
+                <div><a href="https://www.google.com/">Página do google</a></div>
+                <br>
+            </section>
+
+            <section>
+                <form type="submit">
+                    <label for="nome">Seu nome:</label>
+                    <input type="text" id="nome" name="nome" required />
+
+                    <label for="nome">E-mail:</label>
+                    <input type="email" id="email" name="email" required />
+                    
+                    <label for="nome">Telefone celular e Whatsapp:</label>
+                    <input type="tel" id="celular" name="celular" required />
+
+                    <button onclick="enviarEmail()" type="submit">
+                        Enviar
+                    </button>
+                </form>
+
+                <p id="mensagem-sucesso"></p>
+            </section>
+           
+        </main>
+        
+        <footer>
+            <p>
+                &copy; 2025 Ricardo Takara - Todos os direitos reservados
+            </p>
+
+            <hr>
+
+            <p>
+                Conecte-se Comigo:
+            </p>
+            <a href="https://www.linkedin.com/in/ricardotakara/">Linkedin</a>
+
+            <br>
+
+            <a href="https://www.facebook.com/ricardo.takara.1830/">Facebook</a>
+        </footer>
+    </body>
+</html>
